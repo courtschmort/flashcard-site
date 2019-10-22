@@ -1,8 +1,5 @@
 .card {
-
   height: 18rem;
-  background: black;
-  color: white;
   position: ;
 }
 
@@ -11,5 +8,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
 
+#js-back {
+  display: none;
 }

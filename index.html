@@ -14,10 +14,17 @@
       <p>This is a flashcard site for learning JS & jQuery. Click on a term or a concept to see the definition appear.</p>
       <div class="row">
         <div class="col-md-4">
-          <div class="card" style="width: 18rem;">
+          <div id="js-front" class="card" style="width: 18rem;">
             <div class="card-body">
               <h5 class="card-title">JavaScript (JS)</h5>
-              <a href="#" class="btn btn-primary">Show me!</a>
+              <a href="#" id="js-front-button" class="btn btn-primary">Show me!</a>
+            </div>
+          </div>
+          <div id="js-back" class="card overflow-auto" style="width: 18rem;">
+            <div class="card-body">
+              <p class="card-text">Back in 1995, a developer at Netscape named Brendan Eich introduced JavaScript to the world. Despite Java and JavaScript both containing "Java" in their names, they're two distinct languages that have nothing to do with one another. The official name of JavaScript is ECMAScript which gets its name from the international organization that maintains it, <a href="https://www.ecma-international.org/">ECMA (European Computer Manufacturer's Association)</a>.</p>
+              <p class="card-text">JavaScript is a programming language used to make web pages interactive. Like HTML and CSS, you do not need to install anything to begin writing JavaScript or see it run on your users' computers. All modern browsers support JavaScript which means JavaScript that you write for your web pages will automatically run when your visitors load your web page in their browsers. In fact, JavaScript is the only scripting language that all browsers support so if you want a page to have dynamic content, learning JavaScript is a must.</p>
+              <a href="#" id="js-back-link">Ok, I get it.</a>
             </div>
           </div>
         </div>
