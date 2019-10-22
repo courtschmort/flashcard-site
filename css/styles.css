@@ -1,0 +1,15 @@
+.card {
+
+  height: 18rem;
+  background: black;
+  color: white;
+  position: ;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
